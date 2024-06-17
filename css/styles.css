@@ -1,0 +1,231 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    --cor-roxa: #5D04D9;
+    --cor-branca: #FFFFFF;
+    --cor-sombra: rgba(191, 191, 191, 0.75);
+    --cor-azul-campos-botoes: #03318C;
+}
+
+a {
+    color: var(--cor-branca);
+}
+
+/* HEADER */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-roxa);
+    color: var(--cor-branca);
+    font-size: 24px;
+    padding: 20px 0px;
+    box-shadow: 0px 8px 2px var(--cor-sombra);
+}
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    padding: 110px 70px;
+}
+
+.conteudo__meus-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 30%;
+    padding: 40px;
+}
+
+.conteudo__meus-produtos__container {
+    display: flex;
+    gap: 10px;
+    width: 42em;
+    height: 60em;
+    box-shadow: -12px 10px 5.8px var(--cor-sombra);
+    padding: 15px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.conteudo__meus-produtos__container::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+
+}
+
+.conteudo__meus-produtos__container::-webkit-scrollbar-thumb {
+    background-color: #D6D6D6;
+    border-radius: 10px;    
+}
+
+.card {
+    background-color: #9747FF;
+    color: #FFF;
+    font-family: 'IBM Plex Mono', monospace;
+
+    width: calc(100%/4);
+    height: calc(100%/4);
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: -5px 6px 3.33px var(--cor-sombra);
+}
+
+.img-container {
+    width: 176px;
+    height: 174px;
+    align-self: center;
+}
+.img__container__imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.card-container--nome {
+    font-size: 15px;
+}
+
+.card-container--valor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-container__delete-button {
+    background-color: transparent;
+    border: none;
+}
+
+.card-container__delete-button:hover {
+    cursor: pointer;
+}
+
+.conteudo__adicionar-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 35%;
+    padding: 40px;
+}
+
+.conteudo__adicionar-produto__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.conteudo__adicionar-produto__form__campos {
+    width: 392px;
+    height: 58px;
+    background-color: none;
+    border: 3px solid var(--cor-azul-campos-botoes);
+    border-radius: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 14px;
+}
+
+.conteudo__adicionar-produto__form__campos::placeholder {
+    color: var(--cor-azul-campos-botoes);
+}
+
+.conteudo__adicionar-produto__form__container-botoes {
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo__adicionar-produto__form__container-botoes__botoes {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.conteudo__adicionar-produto__form__container-botoes__botoes:hover {
+    cursor: pointer;
+}
+
+#botao-guardar {
+    border: none;
+    background-color: var(--cor-azul-campos-botoes);
+    color: var(--cor-branca);
+}
+
+#botao-limpar {
+    border: 3px solid var(--cor-azul-campos-botoes);
+    background-color: var(--cor-branca);
+    color: var(--cor-azul-campos-botoes);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    background-color: var(--cor-roxa);
+    color: var(--cor-branca);
+    font-size: 24px;
+    padding: 64px;
+    box-shadow: 0px -10px 8px rgba(191, 191, 191, 0.75);
+}
+
+.rodape__marca {
+    display: flex;
+    align-items: center;
+    
+}
+.rodape__credito, .rodape__trademark {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+}
+
+.rodape__credito {
+    font-weight: 400;
+}
+
+.rodape__trademark {
+    font-weight: 200;
+}
+
+@media (max-width: 1024px) {
+    .conteudo {
+        flex-direction: column-reverse;    
+    }
+}

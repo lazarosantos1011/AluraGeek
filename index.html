@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./assets/favicon_AluraGeek.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./assets/coracoes3.svg" alt="Logo do AluraGeek">
+        <span>AluraGeek</span>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__meus-produtos">
+            <h1>
+                MEUS PRODUTOS:
+            </h1>
+            <div data-product-list class="conteudo__meus-produtos__container">
+               
+            </div>
+        </section>
+        <section class="conteudo__adicionar-produto">
+            <h1>ADICIONAR PRODUTO:</h1>
+            <form data-form class="conteudo__adicionar-produto__form" action="post">
+                <input data-nome class="conteudo__adicionar-produto__form__campos" type="text" id="nome" name="nome"
+                    placeholder="Nome..." required>
+                <input data-valor class="conteudo__adicionar-produto__form__campos" type="text" id="valor" name="valor"
+                    placeholder="Valor..." required>
+                <input data-imagem class="conteudo__adicionar-produto__form__campos" type="text" id="imagem" name="imagem"
+                    placeholder="Imagem..." required>
+                <div class="conteudo__adicionar-produto__form__container-botoes">
+                    <input class="conteudo__adicionar-produto__form__container-botoes__botoes" id="botao-guardar" type="submit" value="Guardar">
+                    <button  type="button" class="conteudo__adicionar-produto__form__container-botoes__botoes" id="botao-limpar">Limpar</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__marca">
+            <img src="assets/coracoes3.svg" alt="Logo do AluraGeek">
+            <span>AluraGeek</span>
+        </div>
+        <p class="rodape__credito">DESENVOLVIDO POR <a href="https://www.linkedin.com/in/lazaro-rocha-dev/"
+                target="_blank">LÁZARO ROCHA</a></p>
+        <p class="rodape__trademark">ALURA LATAM - 2024</p>
+    </footer>
+    <script type="module" src="./js/controllers/main.js"></script>
+</body>
+
+
+</html>

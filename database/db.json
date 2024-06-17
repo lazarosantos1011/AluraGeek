@@ -1,0 +1,64 @@
+{
+  "Products": [
+    {
+      "nome": "Flash",
+      "valor": "123",
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2022/01/the-flash-poster-1.jpg",
+      "id": 1
+    },
+    {
+      "nome": "PatoLoco",
+      "valor": "y5",
+      "imagem": "https://w1.pngwing.com/pngs/340/835/png-transparent-chicken-knife-chicken-as-food-tshirt-kitchen-knives-chicken-sandwich-sticker-crew-neck-thumbnail.png",
+      "id": 3
+    },
+    {
+      "nome": "dw",
+      "valor": "b352",
+      "imagem": "https://cdn.pixabay.com/photo/2017/09/01/00/15/png-2702691_1280.png",
+      "id": 4
+    },
+    {
+      "nome": "23",
+      "valor": "32",
+      "imagem": "https://cdn.pixabay.com/photo/2017/09/01/00/15/png-2702691_1280.png",
+      "id": 5
+    },
+    {
+      "nome": "325",
+      "valor": "23",
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2022/01/the-flash-poster-1.jpg",
+      "id": 6
+    },
+    {
+      "nome": "dw",
+      "valor": "2",
+      "imagem": "https://cinepop.com.br/wp-content/uploads/2022/01/the-flash-poster-1.jpg",
+      "id": 7
+    },
+    {
+      "nome": "d21",
+      "valor": "12",
+      "imagem": "https://cdn.pixabay.com/photo/2017/09/01/00/15/png-2702691_1280.png",
+      "id": 9
+    },
+    {
+      "nome": "d21",
+      "valor": "12",
+      "imagem": "https://cdn.pixabay.com/photo/2017/09/01/00/15/png-2702691_1280.png",
+      "id": 10
+    },
+    {
+      "nome": "12",
+      "valor": "23",
+      "imagem": "https://w1.pngwing.com/pngs/340/835/png-transparent-chicken-knife-chicken-as-food-tshirt-kitchen-knives-chicken-sandwich-sticker-crew-neck-thumbnail.png",
+      "id": 11
+    },
+    {
+      "nome": "rt",
+      "valor": "54",
+      "imagem": "https://w1.pngwing.com/pngs/340/835/png-transparent-chicken-knife-chicken-as-food-tshirt-kitchen-knives-chicken-sandwich-sticker-crew-neck-thumbnail.png",
+      "id": 12
+    }
+  ]
+}
