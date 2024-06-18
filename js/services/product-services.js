@@ -1,9 +1,9 @@
 const productList = () => {
-    return fetch('http://localhost:3000/Products').then(response => response.json()).catch(error => console.error(error));
+    return fetch('https://alura-geek-api-dun.vercel.app/Products').then(response => response.json()).catch(error => console.error(error));
 }
 
 const createProduct = (nome, valor, imagem) => {
-    return fetch('http://localhost:3000/Products', 
+    return fetch('https://alura-geek-api-dun.vercel.app/Products', 
     {
         method: 'POST',
         headers: {
@@ -21,7 +21,7 @@ const createProduct = (nome, valor, imagem) => {
 }
 
 const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/Products/${id}`,
+    return fetch(`https://alura-geek-api-dun.vercel.app/Products/${id}`,
         {
             method: 'DELETE',
             headers: {

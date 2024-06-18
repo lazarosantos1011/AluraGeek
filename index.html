@@ -24,15 +24,16 @@
 
     <main class="conteudo">
         <section class="conteudo__meus-produtos">
-            <h1>
+            <h1 class="conteudo__titulos">
                 MEUS PRODUTOS:
             </h1>
             <div data-product-list class="conteudo__meus-produtos__container">
                
             </div>
         </section>
+
         <section class="conteudo__adicionar-produto">
-            <h1>ADICIONAR PRODUTO:</h1>
+            <h1 class="conteudo__titulos">ADICIONAR PRODUTO:</h1>
             <form data-form class="conteudo__adicionar-produto__form" action="post">
                 <input data-nome class="conteudo__adicionar-produto__form__campos" type="text" id="nome" name="nome"
                     placeholder="Nome..." required>
@@ -41,7 +42,7 @@
                 <input data-imagem class="conteudo__adicionar-produto__form__campos" type="text" id="imagem" name="imagem"
                     placeholder="Imagem..." required>
                 <div class="conteudo__adicionar-produto__form__container-botoes">
-                    <input class="conteudo__adicionar-produto__form__container-botoes__botoes" id="botao-guardar" type="submit" value="Guardar">
+                    <button class="conteudo__adicionar-produto__form__container-botoes__botoes" id="botao-guardar" type="submit" value="Guardar">Guardar</button>
                     <button  type="button" class="conteudo__adicionar-produto__form__container-botoes__botoes" id="botao-limpar">Limpar</button>
                 </div>
 
@@ -60,6 +61,5 @@
     </footer>
     <script type="module" src="./js/controllers/main.js"></script>
 </body>
-
 
 </html>
