@@ -58,8 +58,7 @@ const render = async () => {
 
 render();
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
+form.addEventListener('submit', () => {
 
     const nome = document.querySelector('[data-nome]').value;
     const valor = document.querySelector('[data-valor]').value;
